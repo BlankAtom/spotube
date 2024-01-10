@@ -38,6 +38,10 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_displaymode/flutter_displaymode.dart';
 
+// Future<void>：这是函数的返回类型。
+// Future 是 Dart 中用于处理异步操作的类。
+// 在这里，Future<void> 表示这个函数是异步的，并且不返回任何值（void）。
+// 当函数执行了异步操作，但我们不关心它返回的值时，通常会用到这个类型。
 Future<void> main(List<String> rawArgs) async {
   final arguments = await startCLI(rawArgs);
 
